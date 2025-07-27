@@ -1,12 +1,66 @@
-<!-- skidlab/index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>SKIDLAB - HYPR Tools</title>
+  <title>SKIDLAB :: Vault33 Terminal</title>
+  <style>
+    body {
+      background-color: #001100;
+      color: #33FF33;
+      font-family: "Courier New", Courier, monospace;
+      padding: 2rem;
+    }
+    .terminal {
+      border: 2px solid #33FF33;
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+      color: #66FF66;
+    }
+    a {
+      color: #66FF66;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .prompt::before {
+      content: "> ";
+    }
+    .section {
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to SKIDLAB</h1>
-  <p>HYPR-LITE tools, payloads, and vault terminal scripts will live here.</p>
+  <div class="terminal">
+    <h1>Vault33 :: SKIDLAB Terminal</h1>
+
+    <p class="prompt">Welcome, Operator. This terminal node is designated <strong>HYPR-LITE</strong>.</p>
+    <p class="prompt">Pull authorized kits, payloads, and scripts from the list below.</p>
+
+    <div class="section">
+      <p class="prompt"><a href="tools/pull.sh" download>Download pull.sh</a></p>
+      <p class="prompt"><a href="tools/grabkit.sh" download>Download grabkit.sh</a></p>
+      <p class="prompt"><a href="tools/getkits.sh" download>Download getkits.sh</a></p>
+    </div>
+
+    <div class="section">
+      <p class="prompt">To clone SKIDLAB into a terminal node:</p>
+      <pre class="prompt">git clone https://github.com/ATHL337/skidlab.git ~/HYPR/SkidLab</pre>
+    </div>
+
+    <div class="section">
+      <p class="prompt">To pull a payload directly:</p>
+      <pre class="prompt">curl -O https://skidlab.heavyhacks.com/tools/payload1.sh</pre>
+    </div>
+
+    <div class="section">
+      <p class="prompt">More assets coming soon. Stay piped in.</p>
+    </div>
+  </div>
 </body>
 </html>
