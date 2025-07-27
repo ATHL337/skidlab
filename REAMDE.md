@@ -6,14 +6,14 @@
 
 ---
 
-## 📜 Lore
+##  Lore
 > Recovered from the pre-war ruins of a Vault-Tec sanctioned Sony VAIO facility, the HYPR-LITE terminal was repurposed by Vault33 operatives to serve as a mobile, self-sufficient adversarial emulator and payload delivery system. 
 >
 > SKIDLAB is the kit drop. The toolbox. The vault’s unsanctioned response to sanitized cyber hygiene. When digital chaos needs to be weaponized in a training environment, SKIDLAB delivers.
 
 ---
 
-## 🛠 Contents
+##  Contents
 
 This repository includes:
 
@@ -25,21 +25,21 @@ This repository includes:
 
 ---
 
-## 🚀 Quickstart
+##  Quickstart
 
-### 🔽 Download via Terminal
+###  Download via Terminal
 ```bash
 curl -O https://skidlab.heavyhacks.com/tools/pull.sh
 ```
 
-### 📦 Clone Entire Toolkit
+###  Clone Entire Toolkit
 ```bash
 git clone https://github.com/ATHL337/skidlab.git ~/HYPR/SkidLab
 ```
 
 ---
 
-## 📁 Suggested HYPR Folder Structure
+##  Suggested HYPR Folder Structure
 ```
 ~/HYPR/
 ├── Payloads/
@@ -51,7 +51,7 @@ git clone https://github.com/ATHL337/skidlab.git ~/HYPR/SkidLab
 
 ---
 
-## 🧠 Usage
+##  Usage
 - Drop this repo into any compatible terminal node (Raspberry Pi, field laptop, clean VM)
 - Run `getkits.sh` to choose curated payload drops
 - Use `pull.sh` or `grabkit.sh` for custom kits
@@ -59,7 +59,7 @@ git clone https://github.com/ATHL337/skidlab.git ~/HYPR/SkidLab
 
 ---
 
-## 🧃 Credits & Contact
+##  Credits & Contact
 Built by Vault33 operator @ATHL337  
 Terminal: [HYPR-LITE::VAIO-Class::Terminal]  
 Live tools: https://skidlab.heavyhacks.com
