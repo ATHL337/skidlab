@@ -1,0 +1,25 @@
+# Vault33 Git Ignore Template
+
+# Log files
+*.log
+logs/
+vault33/logs/
+
+# Sync folders
+sync/
+vault33/sync/
+vault33/media/
+
+# Version tracking
+version.txt
+
+# Secrets and keys
+*.pem
+*.key
+
+# Misc
+*.img
+*.iso
+*.tar.gz
+*.zip
+.DS_Store
