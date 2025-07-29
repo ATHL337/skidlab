@@ -10,7 +10,7 @@ fi
 
 # Update & install core CLI tools
 sudo apt update && sudo apt install -y \
-neofetch git rsync netcat unzip curl tree htop
+neofetch git rsync netcat-openbsd unzip curl tree htop
 
 # Create Vault33 structure
 echo "[+] Creating ~/vault33 folders"
